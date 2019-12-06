@@ -1,0 +1,32 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="543.0" xmlns:fx="http://javafx.com/fxml">
+    <ComboBox fx:id="comboBoxFrom" layoutX="31.0" layoutY="46.0" prefHeight="31.0" prefWidth="134.0" />
+    <ComboBox fx:id="comboBoxTo" layoutX="31.0" layoutY="106.0" prefHeight="31.0" prefWidth="134.0" />
+    <TextField fx:id="textValueReal" layoutX="197.0" layoutY="46.0" prefHeight="31.0" prefWidth="167.0" />
+    <TextField fx:id="textValueThread" layoutX="198.0" layoutY="46.0" prefHeight="31.0" prefWidth="167.0" />
+    <TextField fx:id="textValueTo" layoutX="197.0" layoutY="106.0" prefHeight="31.0" prefWidth="167.0" />
+    <Text fx:id="textRate" layoutX="426.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="91.13671875">
+        <font>
+            <Font name="Arial" size="16.0" />
+        </font>
+    </Text>
+    <Text layoutX="383.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate:" wrappingWidth="41.13671875">
+        <font>
+            <Font name="Arial" size="16.0" />
+        </font>
+    </Text>
+    <TextArea fx:id="textArea" layoutX="31.0" layoutY="166.0" prefHeight="200.0" prefWidth="200.0">
+        <font>
+            <Font name="Calibri" size="15.0" />
+        </font>
+    </TextArea>
+    <ToggleButton fx:id="toggleRealTime" layoutX="383.0" layoutY="109.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Real Time" />
+    <ToggleButton fx:id="toggleThread" layoutX="453.0" layoutY="109.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Thread" />
+
+</Pane>
