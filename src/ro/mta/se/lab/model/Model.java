@@ -37,7 +37,9 @@ public class Model {
      */
     public void getCurrency(String base) throws IOException, JSONException {
 
-        String urlString = "https://api.fixer.io/latest?base=" + base;
+        //String urlString = "https://api.fixer.io/latest?base=" + base;
+        String urlString = "http://data.fixer.io/api/latest?access_key=42759f610bf6366a948b85a3b039e69c&symbols=USD,RON,GBP";
+
         try {
             StringBuilder result = new StringBuilder();
             URL url = new URL(urlString);
